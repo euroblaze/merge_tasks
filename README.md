@@ -1,16 +1,26 @@
-# Euroblaze Merge Tasks Module
-This module is used to merge multiple tasks into one, at once.
+# Merge odoo Project Tasks
+
+This module is used to merge multiple odoo project-tasks into one, at once.
+
 # About eb_merge_wizard
+
 Merging tasks was not possible before. Now with the Module from Euroblaze this possibility is there, just a few
 clicks away. Select multiple multiple tasks from the list view and click on MERGE TASKS in the Action.
+
 # Installation
 
 Use git clone or just download the .zip package files, unzip at the addons directory, update the modules list and install the module. No further configuration is needed, you are good to go.
 
 Have a great time user. It's a NEBIZ® creation. Merge multiple tasks with merge_tasks_wizard!!! Cheers.
+
 # Compatibility
 
 This module is compatible with 9e, 9c, 10e, 10c. Currently fully tested on 10c, 10e. ..
+
+# Known Issues
+
+- Tags cannot be merged
+
 # Contributors
 
 This module was original authored by [Riste Kabranov](https://github.com/ristecona) at NEBIZ® in Skopje, Macedonia.
