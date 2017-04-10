@@ -1,6 +1,6 @@
 # Euroblaze Merge Tasks Module
 This module is used to archive multiple tasks, at once.
-# About eb_archive_tasks
+# About eb_merge_wizard
 Merging tasks was not possible before. Now with the Module from Euroblaze this possibility is there, just a few
 clicks away. Select multiple multiple tasks from the list view and click on MERGE TASKS in the Action.
 # Installation
