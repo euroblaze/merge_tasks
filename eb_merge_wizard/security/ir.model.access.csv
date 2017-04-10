@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_/odoo/custom/addons/merge_tasks_wizard_/odoo/custom/addons/merge_tasks_wizard,/odoo/custom/addons/merge_tasks_wizard./odoo/custom/addons/merge_tasks_wizard,model_/odoo/custom/addons/merge_tasks_wizard_/odoo/custom/addons/merge_tasks_wizard,,1,1,1,1

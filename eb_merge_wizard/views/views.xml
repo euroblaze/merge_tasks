@@ -1,0 +1,57 @@
+<odoo>
+  <record id="merge_task_form" model="ir.ui.view">
+      <field name="name">eb.merge.tasks.form</field>
+      <field name="model">base.task.merge.automatic.wizard</field>
+      <field name="arch" type="xml">
+          <form string="Merge Tasks">
+            <!-- <h5>***If Assigned to: is empty , the user from the destination task will be assigned!</h5> -->
+              <group string="Assign tasks to">
+                    <field name="user_id" class="oe_inline"/>
+                    <field name="dst_project" class="oe_inline"/>
+              </group>
+              <group string="Destination">
+                  <field name="dst_task_id" class="oe_inline"/>
+
+              </group>
+              <group string="Select Tasks">
+                  <field name="task_ids" nolabel="1">
+                      <tree>
+                          <field name="create_date"/>
+                          <field name="name"/>
+                          <field name="project_id"/>
+                          <field name="tag_ids"/>
+                          <!-- <field name="user_id"/> -->
+                          <field name="id"/>
+                      </tree>
+                  </field>
+              </group>
+              <footer>
+                  <button name="action_merge" type="object" string="Merge" class="btn-primary"/>
+                  <button string="Cancel" class="btn-default" special="cancel"/>
+              </footer>
+          </form>
+      </field>
+  </record>
+
+  <!--  Merge leads/opportunities action -->
+  <record id="merge_tasks_act" model="ir.actions.act_window">
+      <field name="name">Merge Tasks</field>
+      <field name="res_model">base.task.merge.automatic.wizard</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">form</field>
+      <field name="view_id" ref="merge_task_form"/>
+      <field name="target">new</field>
+  </record>
+
+  <act_window
+      id="action_merge_tasks"
+      name="Merge Tasks"
+      multi="True"
+      key2="client_action_multi"
+      res_model="base.task.merge.automatic.wizard"
+      src_model="project.task"
+      view_mode="form"
+      target="new"
+      view_type="form"/>
+
+</odoo>
