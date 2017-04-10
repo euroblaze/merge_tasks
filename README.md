@@ -27,9 +27,9 @@ This module was original authored by [Riste Kabranov](https://github.com/risteco
 
 # We are reaching out to more contributors who can help with..
 
-    testing this module
-    making it compatible with more odoo versions
-    maintain documentation
+- testing this module
+- making it compatible with more odoo versions
+- maintain documentation
 
 # Users
 
@@ -41,7 +41,6 @@ We are happy to list your delightful projects here. Just inform us with a few no
 This module can be tested here, with the Login credentials:
 
     User: ebarchivetest@simplify-erp.com
-
     Pass: ebarchivedemo123
 
 # Feel free to comment and leave feedback.
