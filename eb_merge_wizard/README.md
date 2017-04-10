@@ -30,9 +30,9 @@ We are happy to list your delightful projects here. Just inform us with a few no
 
 This module can be tested here, with the Login credentials:
 
-    User:
+    User: ebarchivetest@simplify-erp.com
 
-    Pass:
+    Pass: ebarchivedemo123
 
 # Feel free to comment and leave feedback.
 # Thank you!
