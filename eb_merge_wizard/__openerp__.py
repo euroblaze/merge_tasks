@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "/odoo/custom/addons/merge_tasks_wizard",
+    'name': "Merge Tasks",
 
     'summary': """
         The merge_tasks_wizard module merges multiple tasks into one,
@@ -22,7 +22,7 @@
     'version': '1.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','project'],
+    'depends': ['base','project','project_timesheet'],
 
     # always loaded
     'data': [
