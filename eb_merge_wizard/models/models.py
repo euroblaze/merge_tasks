@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
-from odoo import models, fields, api, _
-from odoo.exceptions import UserError, ValidationError
+from openerp import models, fields, api, _
+from openerp.exceptions import UserError, ValidationError
 import logging
 _logger = logging.getLogger('base.task.merge.automatic.wizard')
 class MergeTasksLine(models.TransientModel):
