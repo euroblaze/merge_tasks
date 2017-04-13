@@ -47,9 +47,8 @@ class EbMergeTasks(models.TransientModel):
         #also write the description of the destination task because it will be overwritten
         desc.append(self.dst_task_id.description)
         for id in self.task_ids:
-            for name in id:
-            # append the names and desc to the empty lists
-                if name.id != self.dst_task_id.id:
+            if id.id != self.dst_task_id.id:
+                for name in id:
                     names.append(name.name)
                     desc.append(name.description)
                 #self.task_ids.write({'message_ids' : self.dst_task_id.message_ids})
