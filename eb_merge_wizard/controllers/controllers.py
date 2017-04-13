@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import http
+from openerp import http
 
 # class /odoo/custom/addons/mergeTasksWizard(http.Controller):
 #     @http.route('//odoo/custom/addons/merge_tasks_wizard//odoo/custom/addons/merge_tasks_wizard/', auth='public')
