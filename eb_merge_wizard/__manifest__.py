@@ -24,7 +24,7 @@
 
     # any module necessary for this one to work correctly
     'depends': ['base','project','hr_timesheet'],
-
+    'images': ['static/description/banner.jpg'],
     # always loaded
     'data': [
         #'security/ir.model.access.csv',
