@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "/odoo/custom/addons/merge_tasks_wizard",
+    'name': "Merge Tasks",
 
     'summary': """
         The merge_tasks_wizard module merges multiple tasks into one,
@@ -11,8 +11,9 @@
         there will be Merge Tasks option. The wizard will open and place your settings there.
 
     """,
+    """ AUTHOR : RISTE KABRANOV @ SIMPLIFY-ERP.COM """
 
-    'author': "Cona Cons (RISTE KABRANOV)",
+    'author': "odoo@euroblaze.de",
     'website': "http://simplify-erp.com",
 
     # Categories can be used to filter modules in modules listing
