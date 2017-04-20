@@ -58,10 +58,12 @@ class EbMergeTasks(models.TransientModel):
                 msg_id.write({'res_id': self.dst_task_id.id})
 
         #Transfer the timesheets from task_ids to dst_task_id
+        
         for timesheet in self.task_ids:
-            for ts_id in timesheet.timesheet_ids:
-                ts_id.write({'task_id': self.dst_task_id.id})
-                #the task id for timesheet is updated with the dst_task_id.id
+            if timesheet.timesheet_ids:
+                for ts_id in timesheet.timesheet_ids:
+                    ts_id.write({'task_id': self.dst_task_id.id})
+                    #the task id for timesheet is updated with the dst_task_id.id
 
         # # #loop the task_ids and transfer the tag_ids to the dst_task_id
         for task in self.task_ids:
