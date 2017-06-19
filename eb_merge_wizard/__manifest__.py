@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "/odoo/custom/addons/merge_tasks_wizard",
+    'name': "Merge Tasks",
 
     'summary': """
         The merge_tasks_wizard module merges multiple tasks into one,
