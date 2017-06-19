@@ -98,7 +98,7 @@ class EbMergeTasks(models.TransientModel):
         #loop all active tasks
         for task in self.task_ids:
             #post the link to every task
-            task.message_post(body="This task has been merged into: " '%s/#id=%s&amp;view_type=form&amp;model=project.task' % (base_url, self.dst_task_id.id))
+            task.message_post(body="This task has been merged into: " '%s/web#id=%s&amp;view_type=form&amp;model=project.task' % (base_url, self.dst_task_id.id))
 
         self.task_ids.write({'active':False})
         #explicitly write the dst_task_id TRUE for ACTIVE for security reasons
