@@ -12,7 +12,7 @@
 
     """,
 
-    'author': "Cona Cons (RISTE KABRANOV)",
+    'author': "odoo@euroblaze.de",
     'website': "http://simplify-erp.com",
 
     # Categories can be used to filter modules in modules listing
