@@ -10,10 +10,10 @@
         Go to Project --> Tasks (list view) and select multiple tasks, in the action button
         there will be Merge Tasks option. The wizard will open and place your settings there.
 
-   """
+   """,
 
-    'author': "odoo@euroblaze.de",
-    'website': "http://simplify-erp.com",
+    'website': 'www.euroblaze.de',
+     'author': 'odoo@euroblaze.de',
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
