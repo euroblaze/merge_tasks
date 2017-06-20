@@ -12,7 +12,7 @@
 
     """,
 
-    'author': "odoo@euroblaze.de",
+    'author': "odoo@simplify-erp.com",
     'website': "http://simplify-erp.com",
 
     # Categories can be used to filter modules in modules listing
