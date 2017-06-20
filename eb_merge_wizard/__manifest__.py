@@ -10,8 +10,7 @@
         Go to Project --> Tasks (list view) and select multiple tasks, in the action button
         there will be Merge Tasks option. The wizard will open and place your settings there.
 
-    """,
-    """ AUTHOR : RISTE KABRANOV @ SIMPLIFY-ERP.COM """
+   """
 
     'author': "odoo@euroblaze.de",
     'website': "http://simplify-erp.com",
