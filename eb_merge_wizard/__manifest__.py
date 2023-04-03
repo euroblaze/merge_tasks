@@ -13,8 +13,8 @@
     'author': "Cona Cons (RISTE KABRANOV)",
     'website': "http://simplify-erp.com",
     'category': 'Project, Tasks',
-    'version': '15.0.1.0.0',
-    'depends': ['base', 'project'],
+    'version': '16.0.1.0.0',
+    'depends': ['base', 'project', 'hr_timesheet'],
     'data': [
         'security/ir.model.access.csv',
         'views/views.xml',

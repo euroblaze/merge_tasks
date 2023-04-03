@@ -67,9 +67,7 @@ class EbMergeTasks(models.TransientModel):
                     # the task id for timesheet is updated with the dst_task_id.id
 
             # # #loop the task_ids and transfer the tag_ids to the dst_task_id
-            for task in record.task_ids:
-                for tag in task.tag_ids:
-                    tag.write({'tag_ids': [(6, 0, [record.dst_task_id.id])]})
+            record.dst_task_id.write({'tag_ids': [(6, 0, record.mapped('task_ids.tag_ids').ids)]})
 
             # Check for planned hours and if any collect them all and place dst_task_id
             plan_hours = record.dst_task_id.planned_hours
